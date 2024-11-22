@@ -1,0 +1,180 @@
+/* Estilos gerais */
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #f85757b7, #df71fa);
+}
+
+
+
+p.class {border-style: solid;}                                                                            
+
+img {
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #e4eee4;
+    color: #130101;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #92fa98;
+}
+
+/* Estilos para os campos inválidos */
+input:invalid {
+    border-color: #fc7962;
+}
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-image: linear-gradient(to right, #f75757ee, #c466e9);
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+}  
+
+.esports{
+    width: calc(50% - 8px);
+    height: 48px;
+    border-radius: 8px;
+    border: thin solid #0bbe14;
+    padding-left: 16px;
+    }
+
+
+.button {
+    display: inline-block;
+    padding: 20px 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #f1f5f4;
+    color: #0c0101;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #f4f8f2;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #e4eee4;
+    color: #130101;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+  }
